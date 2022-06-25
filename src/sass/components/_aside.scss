@@ -1,0 +1,14 @@
+@import '../vars';
+
+.aside {
+  background: $blue-jeans;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__svg {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+}

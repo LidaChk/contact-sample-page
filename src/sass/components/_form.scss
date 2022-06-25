@@ -1,0 +1,52 @@
+.popup__get-in-touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 3rem;
+  h2 {
+    padding: 0;
+    color: $blue-jeans;
+    text-align: left;
+  }
+  .form {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    &__field {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      box-sizing: border-box;
+    }
+    &__field--half {
+      width: calc(50% - 2rem);
+    }
+    &__label {
+      font-size: x-small;
+    }
+    &__input {
+      border-width: 0 0 2px 0;
+      border-color: $black;
+      color: $black;
+      font-size: small;
+      line-height: 2rem;
+    }
+    input:focus {
+      outline: none;
+    }
+    &__button {
+      color: $black;
+      border-color: $black;
+      width: 5em;
+      height: 2.5em;
+      &:hover {
+        color: $black;
+        border-color: $black;
+        background: $white;
+      }
+    }
+  }
+}
