@@ -5,10 +5,31 @@
   color: $white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  h3 {
+    text-align: center;
+  }
+  p {
+    font-size: 2rem;
+    max-width: 10rem;
+    text-align: center;
+  }
 
   &__svg {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+    width: 3rem;
+    height: 3rem;
+  }
+  &__svg--info {
+    width: 5rem;
+    height: 5rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: raw;
+    gap: 1rem;
   }
 }
