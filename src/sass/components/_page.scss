@@ -1,0 +1,25 @@
+@import '../vars';
+.page {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  height: 100vh;
+  background: $green-blue-crayola;
+  font-family: 'Lato', sans-serif;
+  color: $black;
+}
+
+h1,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 1em;
+}

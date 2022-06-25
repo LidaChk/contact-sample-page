@@ -1,0 +1,8 @@
+@import '../vars';
+@import '../mixins';
+
+.main {
+  @include base-wrapper;
+  background: $white;
+  flex-grow: 1;
+}
