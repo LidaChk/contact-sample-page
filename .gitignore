@@ -127,7 +127,7 @@ dist
 .pnp.*
 
 # my project
-page/
+#page/
 dist/
 
-page
+#page
